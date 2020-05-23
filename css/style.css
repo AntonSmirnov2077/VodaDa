@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 1920px;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    width: 100%;
+    height: 130px;
+    background: #1E90FF;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__number {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-left: 170px;
+}
+.logo {
+    width: 345px;
+    height: 68px;
+}
+.nav {
+    margin-right: 170px;
+}
+.menu__btn {
+    display: block;
+    width: 65px;
+    height: 65px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+}
+.span {
+    position: absolute;
+    top: 50%; margin-top: -1.5px;
+    left: 50%; margin-left: -17px;
+    width: 34px;
+    height: 3px;
+    background-color: #515151;
+}
+.span::before, .span::after {
+    content: "";
+}
+.span::before, .span::after {
+    position: absolute;
+    top: 50%; margin-top: -1.5px;
+    left: 50%; margin-left: -17px;
+    width: 34px;
+    height: 3px;
+    background-color: #515151;
+}
+.span::before {
+    transform: translateY(-7.5px);
+}
+.span::after {
+    transform: translateY(7.5px);
+}
+nav {
+    margin: 0;
+    padding: 0;
+}
+.menu__list {
+    display: flex;
+}
+.menu__list li {
+    position: relative;
+    list-style: none;
+}
+.menu__list li:hover .sub-menu__list {
+    display: block;
+}
+.sub-menu__list {
+    position: absolute;
+    top: 100px;
+}
+.sub-menu__link {
+    display: none;
+    color: #1E90FF;
+    background: #FFFFFF;
+    padding: 10px 15px;
+    border: 2px #1E90FF solid;
+    border-radius: 25px;
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;
+}
+.sub-menu__link:hover {
+    color: #ffffff;
+    background: #1E90FF;
+    border: 2px #ffffff solid;
+}
+.menu__list a {
+    font-family: "Inter";
+}
+.info {
+    width: 100%;
+    height: 696px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.info__text {
+    margin-left: 170px;
+    margin-top: 100px;
+}
+.text__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+.text__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-top: 30px;
+}
+.info__img {
+    margin-right: 170px;
+    width: 745px;
+    height: 496px;
+    margin-top: 45px;
+}
+.about-company {
+    width: 100%;
+    height: 1462px;
+    background: #1E90FF;
+}
+.about__text-block {
+    display: flex;
+    justify-content: space-between;
+}
+.about__text {
+    padding-top: 50px;
+    margin-left: 170px;
+}
+.about__text-title {
+    font-weight: 500;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+.about__text-subtitle {
+    font-family: 'Inter';
+    width: 900px;
+    font-weight: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.about__tick {
+    margin-top: 175px;
+}
+.tick {
+    display: flex;
+    align-items: center;
+    margin-right: 170px;
+}
+.tick__text {
+    font-family: 'Inter';
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+.about__img {
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.place {
+    width: 100%;
+    height: 489px;
+}
+.place__title {
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 66px;
+    color: #000000;
+    margin-left: 170px;
+    padding-top: 50px;
+}
+.places__top {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 50px;
+    border-bottom: 4px #1E90FF solid;
+    padding-bottom: 50px;
+}
+.places__down {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.span__place {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 58px;
+    color: #444444;
+}
+.contacts {
+    width: 100%;
+    height: 1048px;
+    background: #1E90FF;
+}
+.contacts__title {
+    font-weight: 500;
+    font-size: 46px;
+    color: #FFFFFF;
+    padding-top: 50px;
+    margin-left: 170px;
+}
+.contacts__text {
+    padding-top: 50px;
+}
+.contacts__numbers {
+    display: flex;
+}
+.numbers {
+    display: flex;
+    flex-direction: column;
+}
+.number__title {
+    margin-right: 20px;
+}
+.contacts__span {
+    font-family: 'Inter';
+    font-size: 46px;
+    color: #FFFFFF;
+}
+.contacts__numbers, .e-mail, .office, .adress {
+    margin-left: 170px;
+}
+footer {
+    width: 100%;
+    height: 269px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__number, .footer__e-mail {
+    font-family: 'Inter';
+    font-size: 46px;
+    color: #515151;
+}
+.footer__logo {
+    margin-left: 170px;
+}
+.footer__text {
+    margin-right: 170px;
+}

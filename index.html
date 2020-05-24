@@ -14,25 +14,16 @@
                 <span class="header__number">8 (903) 052-00-51</span>
                 <img src="img/logo1920.png" alt="" class="logo">   
                 <nav class="nav">
-                    <ul class="menu__list">
-                        <li class="list-hover">
-                            <a href="" class="menu__btn">
-                                <span class="span"></span>
-                            </a>
-                            <ul class="sub-menu__list">
-                                <li><a href="" class="sub-menu__link">Главная</a></li>
-                                <li><a href="" class="sub-menu__link">О компании</a></li>
-                                <li><a href="" class="sub-menu__link">Места работы</a></li>
-                                <li><a href="" class="sub-menu__link">Контакты</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <a href="#homepage" rel='m_PageScroll2id' class="nav__link">Главная</a>
+                    <a href="#about" rel='m_PageScroll2id' class="nav__link">О компании</a>
+                    <a href="#place" rel='m_PageScroll2id' class="nav__link">Места работы</a>
+                    <a href="#contacts" rel='m_PageScroll2id' class="nav__link">Контакты</a>
                 </nav>
                 <!-- меню -->
             </div>
             <!-- шапка -->
         </header>
-        <div class="info">
+        <div class="info" id="homepage">
             <div class="info__text">
                 <div class="text__title">Бурение скважин <br> на воду в Нижегородской <br> и Кировской областях.</div>
                 <div class="text__subtitle">Позвоните по телефону <br> 8 (903) 052-00-51 и получите <br> консультацию.</div>
@@ -42,7 +33,7 @@
             </div>
         </div>
         <!-- информация -->
-        <div class="about-company">
+        <div class="about-company" id="about">
             <div class="about__text-block">
                 <div class="about__text">
                     <h1 class="about__text-title">О нашей компании</h1>
@@ -69,7 +60,7 @@
             </div>
         </div>
         <!-- о компании -->
-        <div class="place">
+        <div class="place" id="place">
             <h1 class="place__title">Районы, где мы работаем</h1>
             <div class="places">
                 <div class="places__top">
@@ -87,7 +78,7 @@
             </div>
         </div>
         <!-- места работы -->
-        <div class="contacts">
+        <div class="contacts" id="contacts">
             <h1 class="contacts__title">Контактная информация</h1>
             <div class="contacts__text">
                 <div class="contacts__numbers">
@@ -113,6 +104,8 @@
                 <p class="footer__e-mail">Почта: irina.shadrina2011@yandex.ru</p>
             </div>
         </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
     <script src="js/main.js"></script>
     </body>
 </html>

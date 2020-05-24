@@ -11,99 +11,44 @@ a {
     text-decoration: none;
 }
 .header {
-    width: 100%;
-    height: 130px;
+    width: 1887px;
+    height: 100px;
     background: #1E90FF;
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0; left: 8px;
+    margin-right: 8px;
 }
 .header__number {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 35px;
     color: #FFFFFF;
     margin-left: 170px;
 }
 .logo {
-    width: 345px;
+    width: 361px;
     height: 68px;
+    margin-left: 200px;
 }
 .nav {
     margin-right: 170px;
 }
-.menu__btn {
-    display: block;
-    width: 65px;
-    height: 65px;
-    background: #FFFFFF;
-    border-radius: 50%;
-    position: relative;
+.nav__link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
 }
-.span {
-    position: absolute;
-    top: 50%; margin-top: -1.5px;
-    left: 50%; margin-left: -17px;
-    width: 34px;
-    height: 3px;
-    background-color: #515151;
+.nav__link:not(:last-child) {
+    margin-right: 20px;
 }
-.span::before, .span::after {
-    content: "";
-}
-.span::before, .span::after {
-    position: absolute;
-    top: 50%; margin-top: -1.5px;
-    left: 50%; margin-left: -17px;
-    width: 34px;
-    height: 3px;
-    background-color: #515151;
-}
-.span::before {
-    transform: translateY(-7.5px);
-}
-.span::after {
-    transform: translateY(7.5px);
-}
-nav {
-    margin: 0;
-    padding: 0;
-}
-.menu__list {
-    display: flex;
-}
-.menu__list li {
-    position: relative;
-    list-style: none;
-}
-.menu__list li:hover .sub-menu__list {
-    display: block;
-}
-.sub-menu__list {
-    position: absolute;
-    top: 100px;
-}
-.sub-menu__link {
-    display: none;
-    color: #1E90FF;
-    background: #FFFFFF;
-    padding: 10px 15px;
-    border: 2px #1E90FF solid;
-    border-radius: 25px;
-    text-align: center;
-    width: 150px;
-    margin-top: 10px;
-}
-.sub-menu__link:hover {
-    color: #ffffff;
-    background: #1E90FF;
-    border: 2px #ffffff solid;
-}
-.menu__list a {
-    font-family: "Inter";
+.nav__link:hover {
+    font-size: 23px;
 }
 .info {
     width: 100%;
@@ -111,6 +56,7 @@ nav {
     margin: auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 .info__text {
     margin-left: 170px;
@@ -223,7 +169,7 @@ nav {
 }
 .contacts {
     width: 100%;
-    height: 1048px;
+    height: 730px;
     background: #1E90FF;
 }
 .contacts__title {

@@ -749,9 +749,9 @@ footer {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     .header {
-        width: 344px;
+        width: 360px;
         height: 80px;       
     }
     .header__number {
@@ -832,7 +832,7 @@ footer {
     .about__img {
         width: 240px;
         height: 137px;
-        margin-left: 33px;
+        margin-left: 60px;
         margin-top: 0px;
     }
     .place {
@@ -877,14 +877,14 @@ footer {
         font-size: 10px;
     }
     footer {
-        height: 45px;
+        height: 60px;
     }
     .footer__logo {
         width: 285px;
         height: 49px;
         background-image: url(../img/footer320.png);
         margin-left: 15px;
-        margin-top: 33px;
+        margin-top: 30px;
     }
     .footer__number, .footer__e-mail {
         font-size: 8px;
